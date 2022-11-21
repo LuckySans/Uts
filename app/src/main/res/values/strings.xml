@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Uts Ahmad Rizky</string>
     <string-array name="Jalur_pendaftaran">
+        <item>Jalur Pendaftaran</item>
         <item>Tes Tertulis</item>
         <item>Jalur Tanpa Tes</item>
         <item>Ujan Saringan Masuk</item>

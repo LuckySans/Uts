@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().setTitle("Pendaftaran");
+
         btndaftar = findViewById(R.id.btn_daftar);
         etnama = findViewById(R.id.et_NamaLengkap);
         etNomorPendaftaran = findViewById(R.id.et_NomorPendaftaran);
@@ -46,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 else if (!cbkonfirmasi.isChecked()){
                     Toast.makeText(MainActivity.this,"Centang dulu Boss !!", Toast.LENGTH_SHORT).show();
                 }
-                else if (pendaftaran.equalsIgnoreCase("Jalur pendaftaran")){
+                else if (pendaftaran.equalsIgnoreCase("Jalur Pendaftaran")){
                     Toast.makeText(MainActivity.this, "Pilih DUlu boss", Toast.LENGTH_SHORT).show();
                 }
                 else {
